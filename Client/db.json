@@ -1,53 +1,32 @@
 {
   "tasks": [
     {
-      "title": "gugu",
-      "priority": "Medium",
-      "dueDate": "2024-12-12",
-      "status": "Completed",
-      "id": "9164"
-    },
-    {
-      "title": "gugi",
+      "id": "33d5",
+      "title": "Gym",
       "priority": "High",
       "dueDate": "2024-12-16",
-      "status": "Completed",
-      "id": "2ad9"
+      "status": "Not Completed"
     },
     {
-      "id": "49e7",
-      "title": "gopi",
-      "priority": "Low",
+      "id": "27b5",
+      "title": "Coding",
+      "priority": "High",
       "dueDate": "2024-12-15",
-      "status": "Not Completed"
+      "status": "Completed"
     },
     {
-      "title": "papu pants",
-      "priority": "High",
-      "dueDate": "2024-12-22",
-      "status": "Completed",
-      "id": "9b81"
-    },
-    {
-      "id": "b934",
-      "title": "hey pach",
-      "priority": "High",
-      "dueDate": "2024-12-16",
-      "status": "Not Completed"
-    },
-    {
-      "id": "7f3e",
-      "title": "asasa",
+      "id": "f395",
+      "title": "Walk",
       "priority": "Medium",
-      "dueDate": "2024-12-09",
+      "dueDate": "2024-12-17",
       "status": "Not Completed"
     },
     {
-      "title": "mosami",
-      "priority": "High",
-      "dueDate": "2024-12-23",
-      "status": "Completed",
-      "id": "5566"
+      "id": "e46f",
+      "title": "Shopping",
+      "priority": "Low",
+      "dueDate": "2024-12-18",
+      "status": "Not Completed"
     }
   ]
 }

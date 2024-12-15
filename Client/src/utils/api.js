@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-  baseURL: "https://taskmanager-gju3.onrender.com",
+  baseURL: "https://taskmanager-gju3.onrender.com", //"http://localhost:3000" for Local environment
 });
 
 export const getTasks = () => api.get("/tasks");

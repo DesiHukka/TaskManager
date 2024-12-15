@@ -7,8 +7,8 @@ import { addTask } from "./utils/api";
 import axios from "axios";
 
 const { Header, Content, Footer } = Layout;
-// axios.defaults.baseURL = "http://localhost:3000";
-axios.defaults.baseURL = "https://taskmanager-gju3.onrender.com";
+// axios.defaults.baseURL = "http://localhost:3000";  Use for Local dev environment
+axios.defaults.baseURL = "https://taskmanager-gju3.onrender.com"; // for deployement
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
@@ -71,7 +71,7 @@ const App = () => {
     const completedTasks = tasks.filter(
       (task) => task.status === "Completed"
     ).length;
-    return ((completedTasks / tasks.length) * 100).toFixed(2) || 0; // Round off to 1 decimal place
+    return ((completedTasks / tasks.length) * 100).toFixed(2) || 0; // Show Task Percentage and Round off to 2 decimal place
   };
 
   const toggleDarkMode = () => {

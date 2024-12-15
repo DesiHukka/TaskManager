@@ -1,10 +1,6 @@
 import axios from "axios";
-// axios.defaults.baseURL = "http://localhost:3000";
-// https://api.jsonbin.io/v3/b/675eda77ad19ca34f8db7b8c/latest
-axios.defaults.baseURL =
-  "https://my-json-server.typicode.com/DesiHukka/TaskManager";
 const api = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://taskmanager-gju3.onrender.com",
 });
 
 export const getTasks = () => api.get("/tasks");

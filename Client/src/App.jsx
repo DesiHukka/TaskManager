@@ -7,8 +7,9 @@ import { addTask } from "./utils/api";
 import axios from "axios";
 
 const { Header, Content, Footer } = Layout;
-axios.defaults.baseURL = "http://localhost:3000";
-
+// axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL =
+  "https://my-json-server.typicode.com/DesiHukka/TaskManager";
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [isAddModalVisible, setIsAddModalVisible] = useState(false);

@@ -9,7 +9,9 @@ import axios from "axios";
 const { Header, Content, Footer } = Layout;
 // axios.defaults.baseURL = "http://localhost:3000";
 axios.defaults.baseURL =
-  "https://my-json-server.typicode.com/DesiHukka/TaskManager";
+  "https://api.jsonbin.io/v3/b/675eda77ad19ca34f8db7b8c/latest";
+axios.defaults.headers.common["X-Master-Key"] =
+  "$2a$10$P3MZqFdQOyiUY7P0SqEK/.M1qrvR76hfYYpYqG0T80c4mQnARh9/G";
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [isAddModalVisible, setIsAddModalVisible] = useState(false);
